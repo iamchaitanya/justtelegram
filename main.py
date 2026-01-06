@@ -20,7 +20,7 @@ API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
 SESSION_STRING = os.environ.get("SESSION_STRING")
 
-SOURCE_ID = -5044007459
+SOURCE_ID = -1001791881265
 DEST_ID = -5133982059
 
 client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
